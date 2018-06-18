@@ -1,0 +1,41 @@
+body {
+	background-color: white;
+	font-family: Arial, "Times New Roman", serif;
+}
+
+p {
+	text-align: justify;
+}
+p::first-letter {
+	font-size: 2em;
+	color: blue;
+}
+
+.logo {
+	max-width: 100px;
+}
+
+.main_heading {
+	color: black;
+	text-align: right;
+	padding-top: 20px;
+}
+
+hr {
+	display: block;
+	margin-top: 0.4em;
+	margin-bottom: 04em;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-width: 4px;
+	color: red; /*IE*/
+	background-color: red; /*rest of browsers */
+}
+
+.main_picture {
+	max-width: 100%;
+}
+
+figcaption {
+	font-size: 10px;
+}
